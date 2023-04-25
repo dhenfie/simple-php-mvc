@@ -39,3 +39,6 @@ Project ini adalah hasil belajar saya dalam mendalami konsep MVC.
 dalam project ini juga mengimplementasikan konsep konsep penting seperti **Routing**, **Response** dan juga penggunaan view template engine.
 
 untuk studi kasusnya dalam project ini adalah aplikasi web login sederhana.
+
+
+![alt](https://github.com/dhenfie/simple-php-mvc/blob/9ea6f442552b09437bec638d7a7a3a809a0b80eb/demo/php-mvc-login-page.png)
