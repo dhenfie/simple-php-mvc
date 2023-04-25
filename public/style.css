@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+
+ul,
+li {
+    margin-left: -12px;
+}
+
+input,
+button,
+label {
+    display: block;
+}
+
+input {
+    width: 100%;
+}
+
+fieldset {
+    background-color: #ffffff;
+    border-color: #dddddd;
+    border-width: 1.5px;
+}
+
+fieldset legend {
+    font-size: x-large;
+    color: #717171;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: #efefef;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    color: #2f4f4f;
+    margin: 0;
+}
+
+a,
+a:link,
+a:visited,
+a:hover {
+    text-decoration: none;
+    color: #2f4f4f;
+}
+a:link,
+a:visited,
+a:hover {
+    color: #422eb6;
+}
+.nav {
+    background-color: #ffffff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 1px 3px 3px #dddddd;
+}
+.nav > .nav-brand {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.nav li {
+    display: inline;
+    padding-left: 20px;
+}
+
+.main {
+    max-width: 768px;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+
+.container {
+    padding: 10px;
+}
+
+@media (min-width: 564px) {
+    .main {
+        padding-top: 100px;
+        width: 480px;
+    }
+}
+
+.form-group {
+    padding: 10px;
+}
+.form-group label {
+    margin-bottom: 10px;
+    color: #717171;
+}
+
+.form-group input {
+    background-color: transparent;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+.form-group input:hover,
+.form-group input:focus {
+    border-color: #422eb6;
+}
+.form-group button {
+    background-color: #422eb6;
+    color: #efefef;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    font-size: larger;
+    border-radius: 5px;
+}
+.form-group button:hover {
+    border: none;
+}
+
+.alert {
+    margin: 10px 0 10px 0;
+    background-color: firebrick;
+    padding: 15px;
+    border-radius: 3px;
+    color: white;
+}
+
+table {
+    padding: 10px;
+    border: 1px solid #cccccc;
+    background-color: #ffffff;
+}
+tbody {
+    overflow: scroll;
+}
+table td {
+    padding: 5px;
+}

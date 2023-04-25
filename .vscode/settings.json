@@ -1,0 +1,47 @@
+{
+    "php.problems.excludeGitIgnore": true,
+    "php.problems.scope": "opened",
+    "phpunit.phpunit": "vendor/bin/phpunit",
+    "python.analysis.typeCheckingMode": "basic",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "sqlLanguageServer.lint": {
+        "rules": {
+            "align-column-to-the-first": "error",
+            "column-new-line": "error",
+            "linebreak-after-clause-keyword": "error",
+            "reserved-word-case": ["error", "upper"],
+            "space-surrounding-operators": "error",
+            "where-clause-new-line": "error",
+            "align-where-clause-to-the-first": "error"
+        }
+    },
+    "sqlLanguageServer.connections": [
+        {
+            "name": "mysq;",
+            "adapter": "mysql",
+            "host": "localhost",
+            "port": 3307,
+            "user": "root",
+            "password": "fajar070900",
+            "database": "mvc_pattern",
+            "projectPaths": ["/home/dhenfie/Project/mvc-pattern/.sql/"]
+        }
+    ],
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MariaDB",
+            "name": "mvc-pattern",
+            "database": "mvc_pattern",
+            "username": "root",
+            "password": "fajar070900"
+        }
+    ],
+    "php.version": "8.1.7-1ubuntu3.3"
+}

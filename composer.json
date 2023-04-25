@@ -1,0 +1,37 @@
+{
+    "name": "dhenfie/php-mvc",
+    "description": "PHP MVC Pattern",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "System\\": "src/"
+        },
+        "classmap": [
+            "config/Config.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "fajar susilo",
+            "email": "fajarsusilo1600@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^10.0",
+        "kint-php/kint": "^5.0"
+    },
+    "scripts": {
+        "tests": "phpunit",
+        "server": "php -S localhost:8080 -t public"
+    },
+    "require": {
+        "dhenfie/template-system": "^1.0"
+    }
+}
