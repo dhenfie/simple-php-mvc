@@ -3,7 +3,7 @@
 ini adalah contoh penerapan Design Pattern **MVC** yang di implementasikan di bahasa pemograman PHP.
 
 
-![alt](https://github.com/dhenfie/simple-php-mvc/php-mvc-login-page.png)
+![alt](https://github.com/dhenfie/simple-php-mvc/blob/master/demo/php-mvc-login-page.png)
 
 ### # Struktur Project
 
